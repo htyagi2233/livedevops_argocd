@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: htyagi2233/simple-webapp
+        image: nginx:latest
         ports:
         - containerPort: 80
