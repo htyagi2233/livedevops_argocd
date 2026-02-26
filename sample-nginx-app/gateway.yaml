@@ -8,4 +8,4 @@ spec:
     - name: http
       protocol: HTTP
       port: 80
-      hostname: "*.technicalcloudknowledge.com"  # Wildcard to match multiple hosts
+      hostname: "*.sparsh.fun"  # Wildcard to match multiple hosts

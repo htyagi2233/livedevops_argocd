@@ -6,7 +6,7 @@ spec:
   parentRefs:
     - name: my-gateway
   hostnames:
-    - "api.technicalcloudknowledge.com"
+    - "api.sparsh.fun.com"
   rules:
     - backendRefs:
         - name: api-service
@@ -20,7 +20,7 @@ spec:
   parentRefs:
     - name: my-gateway
   hostnames:
-    - "shop.technicalcloudknowledge.com"
+    - "shop.sparsh.fun"
   rules:
     - backendRefs:
         - name: shop-service
