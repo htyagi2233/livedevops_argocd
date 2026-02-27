@@ -1,11 +1,11 @@
-apiVersion: gateway.networking.k8s.io/v1
-kind: Gateway
-metadata:
-  name: my-gateway
-spec:
-  gatewayClassName: nginx
-  listeners:
-    - name: http
-      protocol: HTTP
-      port: 80
-      hostname: "*.sparsh.fun"  # Wildcard to match multiple hosts
+# apiVersion: gateway.networking.k8s.io/v1
+# kind: Gateway
+# metadata:
+#   name: my-gateway
+# spec:
+#   gatewayClassName: nginx
+#   listeners:
+#     - name: http
+#       protocol: HTTP
+#       port: 80
+#       hostname: "*.sparsh.fun"  # Wildcard to match multiple hosts
